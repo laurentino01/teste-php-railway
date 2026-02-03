@@ -4,5 +4,5 @@ WORKDIR /app
 
 COPY . . 
 
-CMD [ "sh","-c","php -S 0.0.0.0:${PORT} -t src/public/index.php" ]
+CMD [ "sh","-c","php -S 0.0.0.0:${PORT} -t src/public" ]
 
